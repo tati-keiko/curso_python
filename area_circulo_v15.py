@@ -22,7 +22,7 @@ if __name__ == '__main__':
         help()
         sys.exit(errno.EPERM)
 
-    if not sys.argv[1].isnumeric():
+    if not sys.argv[1].isnumeric:
         help()
         print(TerminalColor.ERRO +
               'O raio deve ser uma valor numérico.' + TerminalColor.NORMAL)

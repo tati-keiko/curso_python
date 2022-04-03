@@ -19,9 +19,9 @@ if __name__ == '__main__':
 
     if not sys.argv[1].isnumeric():
         help()
-        print('O raio deve ser uma valor numérico.')
+        print('O raio deve ser um valor numérico')
         sys.exit(errno.EINVAL)
 
-raio = sys.argv[1]
-area = circulo(raio)
-print(f'A área do círculo é de {area} cm2.')
+    raio = sys.argv[1]
+    area = circulo(raio)
+    print(f'A área do círculo é de {area} cm2.')

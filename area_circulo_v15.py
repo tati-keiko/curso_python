@@ -25,7 +25,7 @@ if __name__ == '__main__':
     if not sys.argv[1].isnumeric():
         help()
         print(TerminalColor.ERRO +
-              'O raio deve ser uma valor numérico.' + TerminalColor.NORMAL)
+              'O raio deve ser um valor numérico' + TerminalColor.NORMAL)
         sys.exit(errno.EINVAL)
 
     raio = sys.argv[1]
